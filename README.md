@@ -13,4 +13,18 @@ Mira Deployment para conocer como desplegar el proyecto.
 
 2.- Como primera instancia necesitamos la instalacion de PyCharm, el cual se puede encontrar en su pagina oficial: https://www.jetbrains.com/es-es/pycharm/download/#section=windows
 
+<img src="https://user-images.githubusercontent.com/84459707/123177329-b12b3780-d44a-11eb-8e94-d409bf89d613.png"/>
+
 3.- Instalar Flask si se ejecuta en un entorno diferente a PyCharm: https://pypi.org/project/Flask/
+
+<img src="https://user-images.githubusercontent.com/84459707/123177904-c6549600-d44b-11eb-9ff6-0984b3ed04cf.png"/>
+
+### Instalación 🔧
+
+## Ejecutando ⚙️
+
+## Construido con 🛠️
+  - Python - El lenguaje usado
+  -Flask - Herramienta para Python
+  -PyCharm - Entorno utilizado
+## Autores ✒️
