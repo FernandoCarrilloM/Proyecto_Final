@@ -22,20 +22,20 @@ Mira Deployment para conocer como desplegar el proyecto.
 ### Instalación 🔧
 
 Descarga la aplicacion directamente de Git Hub
-
 Abrimos la carpeta que descargamos con nuestro entorno deseado en este caso PyCharm
+![Image text](https://github.com/FernandoCarrilloM/Proyecto_Final/blob/master/1.jpeg)
 ## Ejecutando ⚙️
 
 Ejecutamos el nodo deseado como se muestra en la siguiente imagen
-
+![Image text](https://github.com/FernandoCarrilloM/Proyecto_Final/blob/master/2.jpeg)
 PyCharm nos dara la ruta a la cual dirigirnos
-
+![Image text](https://github.com/FernandoCarrilloM/Proyecto_Final/blob/master/3.jpeg)
 Dentro de la ruta
-
+![Image text](https://github.com/FernandoCarrilloM/Proyecto_Final/blob/master/4.jpeg)
 Apartado de Registro
-
-Apartdado de Consulta
-
+![Image text](https://github.com/FernandoCarrilloM/Proyecto_Final/blob/master/5.jpeg)
+Apartdado de Agenda de materia
+![Image text](https://github.com/FernandoCarrilloM/Proyecto_Final/blob/master/6.jpeg)
 ## Construido con 🛠️
   - [Python](https://www.python.org/downloads/) - El lenguaje usado
   - [Flask](https://pypi.org/project/Flask/) - Herramienta para Python
