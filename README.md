@@ -52,7 +52,7 @@ Apartdado de Agenda de materia
 ## Construido con 🛠️
   - [Python](https://www.python.org/downloads/) - El lenguaje usado
   - [Flask](https://pypi.org/project/Flask/) - Herramienta para Python
-  - [PyCgarm](https://www.jetbrains.com/es-es/pycharm/download/#section=windows) - Entorno utilizado
+  - [PyCharm](https://www.jetbrains.com/es-es/pycharm/download/#section=windows) - Entorno utilizado
 ## Autores ✒️
   - Fernando Carrillo Magallanes - [FernandoCarrilloM](https://github.com/FernandoCarrilloM)
   - Diego Novoa Ortega - [Yoshiuwu](https://github.com/Yoshiuwu)
