@@ -54,5 +54,5 @@ Apartdado de Agenda de materia
   - [Flask](https://pypi.org/project/Flask/) - Herramienta para Python
   - [PyCgarm](https://www.jetbrains.com/es-es/pycharm/download/#section=windows) - Entorno utilizado
 ## Autores ✒️
-  - Fernando Carrillo Magallanes [FernandoCarrilloM](https://github.com/FernandoCarrilloM)
-  - Diego Novoa Ortega [Yoshiuwu](https://github.com/Yoshiuwu)
+  - Fernando Carrillo Magallanes - [FernandoCarrilloM](https://github.com/FernandoCarrilloM)
+  - Diego Novoa Ortega - [Yoshiuwu](https://github.com/Yoshiuwu)
