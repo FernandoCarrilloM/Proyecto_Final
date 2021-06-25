@@ -1,0 +1,52 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/estilos.css')}}">
+  </head>
+
+<body>  
+  <header class="barra">
+    <a href="/">
+      <img src="{{url_for('static', filename='img/logo.png')}}" alt="Logo">
+    </a>
+  </header>
+  <!-- formulario de contacto en html y css -->  
+  <div class="contact_form">
+    <div class="formulario">      
+      <h1>Registro</h1>
+        <h3>Favor de llenar todos los campos</h3>
+          <form action="/validacion" method="post">       
+
+                <p>
+                    <label for="codigo" class="colocar_codigo">Codigo
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="codigo" id="codigo" required="codigo" placeholder="Escribe tu codigo">
+                  </p>
+                  <p>
+                    <label for="nombre" class="colocar_nombre">Nombre del Alumno
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="nombre" id="nombre" required="nombre" placeholder="Escribe tu nombre">
+                  </p>
+                  <p>
+                    <label for="semestre" class="colocar_semestre">Semestre
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="semestre" id="semestre" required="semestre" placeholder="Escribe tu semestre">
+                  </p>
+                  
+                <input type="submit" value="Registrar" class="button">
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>Los campos son obligatorios.
+                </p>          
+            
+          </form>
+    </div>  
+  </div>
+
+</body>
+</html>

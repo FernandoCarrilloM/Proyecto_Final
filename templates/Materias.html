@@ -1,0 +1,104 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Materias</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/estilos.css')}}">
+  </head>
+
+<body>  
+  
+  <header class="barra">
+    <a href="/">
+      <img src="{{url_for('static', filename='img/logo.png')}}" alt="Logo">
+    </a>
+  </header>
+  <!-- formulario de contacto en html y css -->  
+
+  <div class="contact_form">
+
+    <div class="formulario">      
+      <h1>Agenda de Materias</h1>
+        <h3>Favor de llenar todos los campos</h3>
+
+          <form action="/add_materias" method="post">       
+                <p>
+                  <label for="materia" class="colocar_materia">Materia
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="materia" id="materia" required="obligatorio" placeholder="Escribe el nombre de la materia">
+                </p>
+                <p>
+                    <label for="nrc" class="colocar_nrc">NRC
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="nrc" id="nrc" required="obligatorio" placeholder="Escribe tu NRC">
+                  </p>
+                  <p>
+                    <p>
+                        <label for="clave" class="colocar_clave">Clave
+                          <span class="obligatorio">*</span>
+                        </label>
+                          <input type="text" name="clave" id="clave" required="obligatorio" placeholder="Escribe tu clave">
+                      </p>
+                      <p>
+                        <p>
+                            <label for="seccion" class="colocar_seccion">Sección
+                              <span class="obligatorio">*</span>
+                            </label>
+                              <input type="text" name="seccion" id="seccion" required="obligatorio" placeholder="Escribe tu seccion">
+                          </p>
+                  <p>
+                    <label for="dias" class="colocar_dias">Días
+                      <span class="obligatorio">*</span>
+                    </label>
+                    <select class="campo__field" name="dias" id="dias">
+                      <option value="value2" selected>--Ninguno--</option>
+                      <option value="value1"> L-I</option>
+                      <option value="value2"> M-J</option>
+                      <option value="value3"> Sabado</option>
+                      <option value="value3"> L-M</option>
+                      <option value="value3"> I-V</option>
+                      <option value="value3"> V-S</option>
+                      <option value="value3"> Viernes</option>
+                    </select>
+                  </p>
+                  <p>
+                    <label for="horas" class="colocar_horas">Horas
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="horas" id="horas" required="obligatorio" placeholder="Escribe tu ciudad">
+                  </p>
+                  <p>
+                    <label for="edificio" class="colocar_edificio">Edificio
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="edificio" id="edificio" required="obligatorio" placeholder="Escribe tu dirección">
+                  </p>
+                <p>
+                  <p>
+                    <label for="aula" class="colocar_aula">Aula
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="aula" id="aula" required="obligatorio" placeholder="Escribe tu Codigo Postal">
+                  </p>
+                <p>
+                  <label for="maestro" class="colocar_maestro">Maestro
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="maestro" id="maestro" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+              
+                <input type="submit" value="Enviar" class="button">
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+                
+                <a class="boton boton-amarillo" href="/mine_block">Terminar Agenda</a>
+          </form>
+    </div>  
+  </div>
+  
+</body>
+</html>

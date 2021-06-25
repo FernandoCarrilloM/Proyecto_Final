@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+    <title>Home</title>
+</head>
+<body>
+    <header class="site-header inicio">
+      <div class="contenedor contenido-header">
+          <div class="barra">
+              <a href="/">
+                 <img src="{{url_for('static', filename='img/logo.png')}}" alt="logo">
+              </a>
+              <nav class="navegacion">
+                  <a href="/">
+                    <h2>Fran<span>SIIAU</span></h2>
+                </a>
+              </nav>
+          </div>
+          
+          <div class="header__texto">
+              <h1 class="no-margin">Registro Estudiantil Desentralizado</h1>
+              <a class="boton boton-amarillo " href="/Registro_usuario">
+                Registro
+              </a>
+          </div>
+      </div> <!-- Contenedor -->
+  </header>
+</body>
+</html>
